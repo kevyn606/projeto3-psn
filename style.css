@@ -1,0 +1,86 @@
+#logo{
+    width: 2em;
+}
+
+:root{
+    --primary:#2a8ddf;
+    --background: white;
+    --letra:black;
+}
+
+.dark-mode{
+    --background: black;
+    --primary:#b55adf;
+    --letra:white;
+    
+}
+
+body{
+    background-color: var(--background);
+}
+
+.navbar{
+    background-color:var(--background);
+}
+
+#primeiro-container{
+    height: 75vh;
+    overflow: hidden;
+}
+
+.hh{
+    height: 75vh;
+}
+
+#centro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.letra-p{
+    color: var(--letra);
+}
+
+.letra-g{
+    color: var(--letra);
+}
+.nav .nav-link.active{
+    background-color: var(--primary);
+}
+#cabecalho .nav .nav-link.active{
+    background-color: var(--primary);
+    color: var(--background);
+}
+
+#novidade{
+    background-color: var(--primary);
+    color: white;
+    
+}
+
+#fale-conosco{
+    background-color: var(--primary) ;
+    color: white;
+
+}
+
+.nav-item a{
+    color: var(--primary);
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+    
+}
+
+.social-links a{
+    text-decoration: none;
+    color: var(--letra);
+}
+
+@media (max-width: 767px ){
+    .carousel-item img{
+        height: 280px;
+    }
+}
